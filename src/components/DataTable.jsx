@@ -80,7 +80,7 @@ function DataTable({ projects, sortBy, status, filter }) {
               <td className="flex justify-center w-full text-base">
                 <span
                   className={`${
-                    item.status === "open" ? "bg-lime-500" : "bg-rose-500"
+                    item.status === "open" ? "bg-blue-600" : "bg-rose-500"
                   } py-0.5 px-4 w-16 rounded-xl text-white`}
                 >
                   {item.status === "open" ? 'باز' : 'بسته'}
